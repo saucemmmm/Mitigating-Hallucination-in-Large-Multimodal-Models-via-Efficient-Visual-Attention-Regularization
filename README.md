@@ -1,4 +1,4 @@
-# Mitigating Hallucination in Large Multimodal Models via Efficient Visual Attention Regularization
+# Mitigating Hallucination in Large Multimodal Models via Efficient Visual Attention Redistribution
 
 This repository contains the code, datasets, and findings for my paper. The primary goal of this project is to explore and implement methods for mitigating hallucinations in Large Multimodal Models (LMMs) using an efficient visual attention regularization technique.
 
