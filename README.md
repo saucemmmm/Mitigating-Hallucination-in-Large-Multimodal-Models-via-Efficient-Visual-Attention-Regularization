@@ -9,11 +9,12 @@ For a detailed explanation of the methodology, theoretical background, and a com
 
 ## Experiments and Reproducibility
 
-To ensure full reproducibility of the experiments discussed in the project report, this repository includes the Jupyter notebooks and necessary benchmark datasets used during our evaluation. 
+To ensure full reproducibility of the experiments discussed in the project report, this repository includes the Jupyter notebooks and necessary benchmark datasets used during our evaluation. We have added the 3 correct `.ipynb` files, each with the code used to get the results.
 
 ### Notebooks
-- **`CISC874_Baseline.ipynb`**: Contains the baseline implementation and evaluation code used to measure initial model hallucinations before any interventions.
-- **`CISC874Projec.ipynb`**: Contains the main implementation of our visual attention regularization approach and the experimental setup to evaluate its effectiveness against the baselines.
+- **Baseline Model**: Note the baseline model does not use any visual hallucination mitigation, we just running the image text pairs on the LLaVA-1.5-7B model.
+- **Reproduce VCD**: The reproduce VCD is used to replicate the results found in the paper: [@seilk/VisAttnSink](https://github.com/seilk/VisAttnSink) (although we use a small subset of data than in the paper).
+- **Simplified VAR**: The Simplified VAR contains the code which implements 3 different types of visual token redistribution model that attempt to provide performance improves over the baseline without the high computational cost from the VCD method.
 
 ### Datasets and Results
 The provided `.zip` files contain the datasets, images, and raw experimental results associated with the standard multimodal benchmarks we used. You will need these to reproduce the project results:
@@ -23,5 +24,6 @@ The provided `.zip` files contain the datasets, images, and raw experimental res
 
 ## How to Use
 1. Unzip the benchmark archive files (`MME.zip`, `MMVP.zip`, `POPE.zip`) into your working directory as required by the notebooks.
-2. Run `CISC874_Baseline.ipynb` to evaluate the baseline hallucination metrics.
-3. Run `CISC874Projec.ipynb` to apply the efficient visual attention regularization and observe the mitigation results as detailed in the report.
+2. Run the **Baseline Model** notebook to evaluate the baseline hallucination metrics.
+3. Run the **Reproduce VCD** notebook to evaluate the replication of VisAttnSink.
+4. Run the **Simplified VAR** notebook to apply the efficient visual token redistribution models and observe the mitigation results.
