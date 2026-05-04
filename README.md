@@ -5,7 +5,7 @@ This repository contains the code, datasets, and findings for my paper. The prim
 ## Project Report
 
 For a detailed explanation of the methodology, theoretical background, and a comprehensive analysis of our findings, please refer to the project report:
-**[`CISC874___Project_Report.pdf`](./Report.pdf)**
+**[`Report.pdf`](./Report.pdf)**
 
 ## Experiments and Reproducibility
 
