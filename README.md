@@ -1,11 +1,11 @@
 # Mitigating Hallucination in Large Multimodal Models via Efficient Visual Attention Regularization
 
-This repository contains the code, datasets, and findings for the CISC874 course project. The primary goal of this project is to explore and implement methods for mitigating hallucinations in Large Multimodal Models (LMMs) using an efficient visual attention regularization technique.
+This repository contains the code, datasets, and findings for my paper. The primary goal of this project is to explore and implement methods for mitigating hallucinations in Large Multimodal Models (LMMs) using an efficient visual attention regularization technique.
 
 ## Project Report
 
 For a detailed explanation of the methodology, theoretical background, and a comprehensive analysis of our findings, please refer to the project report:
-**[`CISC874___Project_Report.pdf`](./CISC874___Project_Report.pdf)**
+**[`CISC874___Project_Report.pdf`](./Report.pdf)**
 
 ## Experiments and Reproducibility
 
